@@ -34,6 +34,7 @@ body {
   max-width: 320px;
 
   margin-bottom: 30px; /* ✅ AQUI */
+  margin-top: 40px
 }
 
 .avatar {
