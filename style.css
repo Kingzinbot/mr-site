@@ -25,16 +25,27 @@ body {
 }
 
 .card {
-  backdrop-filter: blur(14px);
-  background: rgba(0,0,0,0.45);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
   padding: 20px;
-  border-radius: 18px;
+  width: 320px;
+  margin: 15px auto;
   text-align: center;
-  width: 100%;
-  max-width: 320px;
+  color: white;
+}
 
-  margin-bottom: 30px; /* ✅ AQUI */
-  margin-top: 40px
+/* Card da bio */
+.bio-card {
+  margin-top: 100px;
+}
+
+/* Card da música */
+.music-card {
+  margin-top: 20px;
+}
+
+.music-card audio {
+  width: 100%;
 }
 
 .avatar {
