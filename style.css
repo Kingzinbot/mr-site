@@ -43,7 +43,6 @@ body {
 /* Card da música */
 .music-card {
   margin-top: 20px;
-  margin-left: 10px;
 }
 
 .music-card audio {
