@@ -37,6 +37,7 @@ body {
 /* Card da bio */
 .bio-card {
   margin-top: 100px;
+  width: 280px
 }
 
 /* Card da música */
