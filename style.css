@@ -72,3 +72,42 @@ h1 {
   max-width: 360px;
   text-align: center;
 }
+
+/* ===== AJUSTES PARA CELULAR ===== */
+@media (max-width: 600px) {
+
+  body {
+    padding: 20px;
+    justify-content: flex-start;
+  }
+
+  .card {
+    margin-top: 40px;
+    width: 100%;
+    max-width: 100%;
+    padding: 25px;
+  }
+
+  .avatar {
+    width: 90px;
+    height: 90px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  .links a {
+    font-size: 20px;
+  }
+
+  .music {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 40px;
+  }
+
+  audio {
+    width: 100%;
+  }
+}
