@@ -33,7 +33,7 @@ body {
   width: 100%;
   max-width: 320px;
 
-  margin-bottom: 60px; /* ✅ AQUI */
+  margin-bottom: 10px; /* ✅ AQUI */
 }
 
 .avatar {
