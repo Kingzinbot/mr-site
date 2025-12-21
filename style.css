@@ -26,11 +26,11 @@ body {
 .card {
   backdrop-filter: blur(14px);
   background: rgba(0,0,0,0.45);
-  padding: 30px;
-  border-radius: 22px;
+  padding: 20px;
+  border-radius: 18px;
   text-align: center;
-  width: 60%;
-  max-width: 260px;
+  width: 100%;
+  max-width: 300px;
 }
 
 .avatar {
