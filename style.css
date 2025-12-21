@@ -64,13 +64,13 @@ h1 {
 }
 
 .music {
-  margin-top: 25px;
+  margin: 18px auto 0 auto;
   backdrop-filter: blur(14px);
   background: rgba(0,0,0,0.45);
-  padding: 15px;
-  border-radius: 18px;
-  width: 90%;
-  max-width: 360px;
+  padding: 12px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 300px;
   text-align: center;
 }
 
