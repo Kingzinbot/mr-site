@@ -73,38 +73,44 @@ h1 {
   text-align: center;
 }
 
-/* ===== AJUSTES PARA CELULAR ===== */
+/* ===== MOBILE FIX ===== */
 @media (max-width: 600px) {
 
   body {
-    padding: 20px;
-    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 40px 16px;
+    justify-content: center;
+    background-attachment: fixed;
   }
 
   .card {
-    margin-top: 40px;
     width: 100%;
-    max-width: 100%;
-    padding: 25px;
+    max-width: 340px;
+    padding: 22px;
+    margin-bottom: 20px;
+  }
+
+  .music {
+    width: 100%;
+    max-width: 340px;
+    padding: 14px;
   }
 
   .avatar {
-    width: 90px;
-    height: 90px;
+    width: 88px;
+    height: 88px;
   }
 
   h1 {
     font-size: 22px;
   }
 
-  .links a {
-    font-size: 20px;
+  .links {
+    margin-top: 18px;
   }
 
-  .music {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 40px;
+  .links a {
+    font-size: 20px;
   }
 
   audio {
