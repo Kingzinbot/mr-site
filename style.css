@@ -66,19 +66,16 @@ h1 {
 
 .music {
   backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
   background: rgba(0,0,0,0.45);
   padding: 12px;
-  border-radius: 16px;
+  border-radius: 15px;
   width: 100%;
   max-width: 300px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* 🔥 CENTRALIZA */
-}
-.music audio {
-  width: 100%;
-  max-width: 280px;
+
+  margin-left: auto;
+  margin-right: auto; /* 🔥 CENTRALIZA O CARD */
 }
 
 @media (max-width: 600px) {
